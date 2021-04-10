@@ -1,0 +1,21 @@
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    System.out.println("The world!");
+    System.out.println("star platinum!");
+    System.out.println("");
+    //tab = 들기쓰기
+    //shift + tab = 내여쓰기
+    //ctrl + shift + c = 라인주석 단축키
+    //ctrl + (+, -) = 폰트 크기 단축키
+    //ctrl + space =오자동완성
+    System.out.println("");
+    //ctrl + shift +f = 자동정렬
+    System.out.print("Hello!");
+    System.out.print("There!");
+    //System.out.print() =>줄바꿈 X
+    System.out.println();
+    System.out.println(1 + 5);
+    
+  }
+}

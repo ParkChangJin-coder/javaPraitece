@@ -1,0 +1,93 @@
+import java.security.Principal;
+
+public class Main {
+  public static void main(String[] args) {
+    int a;
+    a = 10;
+
+    int b;
+    b = 20;
+
+    int c;
+    c = 30;
+
+    System.out.println(a);
+    System.out.println(b);
+    System.out.println(c);
+
+    int aa = 40;
+    int bb = 50;
+    int cc = 60;
+
+    System.out.println(aa);
+    System.out.println(bb);
+    System.out.println(cc);
+
+    char code = 11;
+    System.out.println(code);
+
+    int age = 0;
+    age = 34;
+    float height = 178.4f;
+    double weight = 87.5;
+
+    System.out.println(age);
+    System.out.println(height);
+    System.out.println(weight);
+
+    char c1 = 'A'; //2바이트
+    char c2 = '\u0041'; //유니코드 표현법
+    char c3 = 65;
+    System.out.println(c1);
+    System.out.println(c2);
+    System.out.println(c3);
+
+    boolean h = true; //1바이트
+    boolean h2 = false;
+    System.out.println(h);
+    System.out.println(h2);
+
+    System.out.println(1 > 3);
+    System.out.println(3 > 1);
+    //비교 연산자는 boolean값을 갖는다
+
+    //자동 타입 변환
+    int i = 100;
+    float j = i;
+    System.out.println(i);
+    System.out.println(j);
+
+    byte i1 = 10;
+    byte i2 = 20;
+    //byte result1 = i1 + i2;
+    //연산시에는 기본타입인 int형으로 연산한다.
+    int result1 = i1 + i2;
+    System.out.println(result1);
+
+    int e = 10;
+    double f = 10.2;
+    double result2 = e + f;
+    System.out.println(result2);
+
+    char ch1 = 'A';
+    int g = ch1;
+    System.out.println((char)g);
+
+    byte ab = 65;
+    char ch2 = (char)ab;
+    System.out.println(ch2); 
+
+    int ccc = 128;
+    byte ddd = (byte)ccc;
+    //지정된 타입보다 값이 더 클 경우 강제타입 변환 해주면
+    //(Overflow) : 가장 작업 값으로 돌아간다.
+    System.out.println(ddd);
+
+    float o = 3.14f;
+    int ff = (int)o;
+    System.out.println(ff);
+    //실수를 강제 타입 변환하면 정수 부분만 저장된다.
+
+
+  }
+}
