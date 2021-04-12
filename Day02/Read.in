@@ -1,0 +1,23 @@
+import java.security.Principal;
+import java.IOExeption;
+
+public class Main {
+  public static void main(String[] args) throws IOExeption {
+    //throw 예외처리
+    //throws OIexeption
+    System.out.println("enter keykode and enter");
+    
+    int keyCode;
+    
+    keyCode = System.in.read();
+    //한글은 1바이틑로 표현할 수 없다
+    // 숫자와 영문 특수문자만 입력할 수 있다.
+    System.out.println(keyCode);
+    
+    keyCode = System.in.read(); //엔리값처리
+    System.out.println(keyCode);
+    
+
+
+  }
+}

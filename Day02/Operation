@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args){
+    int a, b, c, d;
+    a = 10;
+    b = 20;
+    c = 30;
+    d = 40;
+    
+    int result1 = a + b * c - d;
+    System.out.println(result1);
+    
+    boolean result2 = a < b && c >d;
+    System.out.println(result2);
+    boolean result3 = a <b && c < d;
+    System.out.println(result3);
+    
+    //비트연산자 안씀!!
+    System.out.println(10 & 7); //2
+    System.out.println(10 | 7); //15
+    System.out.println(10 ^ 7); //13
+    
+    a = b = c = 100;
+    System.out.printf("%d, %d, %d\n", a, b, c);
+    
+    a += 100;
+    System.out.println(a);
+    
+    System.out.println(2 + "grade" + 10 + "class");
+    String str1 = "Good whether!";
+    String str2 = "Let's go outside!";
+    System.out.println(str1 + "\n" + str2);
+    
+        //3항 연산자
+    String str = (10 < 30 ? "10 in bigger than 30" : "30 is bigger that 10");
+    System.out.println(str);
+
+    
+
+    
+  }
+}
