@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args){
+    Scanner scan = new Scanner(System.in);
+    System.out.println("input : ");
+    String str = scan.next();
+    //공백 전까지 문자열 읽어온다
+    //String 변수에 담는다.
+    System.out.println(str);
+    scan.nextLine();
+    
+    int a = scan.nextInt();
+    double b = scan.nextDouble();
+    //float c = scan.nextfloat();
+    
+    String str1 = scan.nextLine();
+    System.out.println(str1);
+    
+    scan.close();
+    
+    
+  }
+}
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args){
+    int a, b;
+    int result;
+    
+    Scanner scan = new Scanner(System.in);
+    
+    System.out.println("first number : ");
+    a = scan.nextInt();
+    
+    System.out.println("second number : ");
+    b = scan.nextInt();
+    
+    result = a + b;
+    System.out.println(result);
+    
+    scan.close();
+  }
+}
