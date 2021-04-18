@@ -17,7 +17,7 @@ public class Ex05 {
 	public static void profile(String name, int age, String phoneNum) {
 		System.out.println("name : " + name);
 		System.out.println("age : " + age);
-		System.out.println("phoneNum" + phoneNum);
+		System.out.println("phoneNum : " + phoneNum);
 	}
 	
 	public static void main(String[] args) {
