@@ -11,12 +11,13 @@ class Car2{
 	
 	//생성자 오버로딩
 	Car2(String model){ //this : 현재 객체
-		this.model = model;
+		this(model, null); //.model = model;
 	}
 	
 	Car2(String model, String color){
-		this.model = model;
-		this.color = color;
+		//this.model = model;
+		//this.color = color;
+		this(model, color, 0);
 	}
 	
 	Car2(String model, String color, int maxSpeed){
