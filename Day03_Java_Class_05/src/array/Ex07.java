@@ -43,6 +43,7 @@ public class Ex07 {
 		for(int i = 0; i < 3; i++) {
 			System.out.printf("%s 님의 총점은 %d 점 이고 순위는 %d등 입니다.\n", names[i], total[i], rank[i]);
 		}
+		scan.close();
 
 	}
 
