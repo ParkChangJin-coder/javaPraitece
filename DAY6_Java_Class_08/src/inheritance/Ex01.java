@@ -16,7 +16,8 @@ class Child extends Parent{ //자식 클래스
 	int childField;
 	
 	public Child() {
-		//super();// this.와 마찬가지로 첫줄에만 올 수 있다.
+		//super(); 명시를 안 해도 컴파일러가 자동으로 생성
+		// this.와 마찬가지로 첫줄에만 올 수 있다.
 		System.out.println("자식 클래스 생성자 입니다.");
 	}
 	
