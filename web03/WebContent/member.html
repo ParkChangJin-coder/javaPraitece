@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style type="text/css">
+			body {
+				background: yellow; /* css주석 ,컨트롤+쉬프트+/ */
+				color: blue; /* 글자색 */
+			}
+			button{
+				background: lime;
+				color: red;
+				font-weight: bold;
+			}
+		</style>
+		<script type="text/javascript">
+			//alert('오늘이 정말 토요일 인가요???') //확인창을 보인다.
+		</script>
+	</head>
+	<body>
+		<h3>회원 가입 화면입니다.</h3> <!-- 제목용 태그 1~6 -->
+		<hr color="red">
+		<form action="insert.jsp"> <!-- ctrl + alt + 화살표 아래 -->
+			아이디 : <input name="id"><br>
+			패스워드 : <input name="pw"><br>
+			이름 : <input name="name"><br>
+			생년월일 : <input type="date" name="birth"><br>
+			연락처 :  
+			<select name="company">
+				<option value="010" selected="selected">skt
+				<option value="011">lgt
+				<option value="019">kt
+			</select>
+			<input name="tel"><br>
+			성별 : <input type="radio" name="gender" value="남자">남
+				 <input type="radio" name="gender" value="여자">여
+				 <input type="radio" name="gender" value="응답안함" checked="checked">응답안함
+				 <br> 
+				 <!-- 라디오는 name이 동일하면 한 value만 서버로 전송한다. -->
+			취미 : <input type="checkbox" name="hobby" value="등산">산오르기
+				 <input type="checkbox" name="hobby" value="헬스">헬스
+				 <input type="checkbox" name="hobby" value="악기">악기
+				 <input type="checkbox" name="hobby" value="게임">게임
+				 <br>
+			하고 싶은 말 : <textarea rows="5" cols="20" placeholder="여기에 적으세요" name="word"></textarea>
+			<hr color="blue" width="900">
+			<button>회원가입 처리</button>
+		</form>
+	</body>
+</html>
